@@ -1,0 +1,27 @@
+h1.on {
+    color: #f00;
+}
+
+.chulsu {
+    color: #f00;
+}
+
+.tabMenu {
+    padding: 100px 0;
+}
+
+.tabMenu .tit {
+    display: flex;
+}
+
+.tabMenu .tit>li.on {
+    color: #f00;
+}
+
+.tabMenu .con>li {
+    display: none;
+}
+
+.tabMenu .con>li.on {
+    display: block;
+}
