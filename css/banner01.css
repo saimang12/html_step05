@@ -94,3 +94,57 @@
     bottom: 15px;
     right: 15px;
 }
+
+.leftBanner {
+    position: fixed;
+    top: 50%;
+    left: -400px;
+    transform: translate(0, -50%);
+    transition: 0.5s;
+}
+
+.leftBanner.on {
+    left: 0;
+
+}
+
+.leftBanner .con {
+    width: 400px;
+    background: tomato;
+}
+
+.leftBanner i {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(100%, 0);
+}
+
+.rightBanner {
+    position: fixed;
+    top: 50%;
+    right: -400px;
+    transform: translate(0, -50%);
+    transition: 0.5s;
+}
+
+.rightBanner.on {
+    right: 0;
+}
+
+.rightBanner .con {
+    width: 400px;
+    background: tomato;
+}
+
+.rightBanner i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-100%, 0);
+
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+}
